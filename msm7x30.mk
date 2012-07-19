@@ -31,6 +31,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/init.htc7x30.usb.rc:root/init.htc7x30.usb.rc
+	
+# media configs
+PRODUCT_COPY_FILES += \
+   device/htc/msm7x30-common/media_codecs.xml:system/etc/media_codecs.xml \
+   device/htc/msm7x30-common/audio_policy.conf:system/etc/audio_policy.conf
 
 # Common 7x30 firmware
 PRODUCT_COPY_FILES += \
